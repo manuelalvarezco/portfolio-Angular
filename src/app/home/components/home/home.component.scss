@@ -1,0 +1,143 @@
+.sidenav-container {
+    height: 100%;
+}
+
+.sidenav {
+    width: 200px;
+}
+
+.sidenav .mat-toolbar {
+    background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 16px auto;
+    @media screen and(min-width: 767px) {
+        flex-direction: row-reverse;
+    }
+}
+
+.main-avatar {
+    width: 300px;
+    @media screen and(max-width: 767px) {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.main-avatar img {
+    border-radius: 10px;
+    max-width: 100%;
+    @media screen and(max-width: 767px) {
+        border-radius: 50%;
+    }
+}
+
+.info {
+    padding: 8px;
+    padding: 0 16px;
+    @media screen and(min-width: 767px) {
+        width: 50%;
+    }
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and(min-width: 767px) {
+        align-items: flex-start;
+        max-width: 450px;
+    }
+}
+
+.main-info__name {
+    margin-bottom: 8px;
+}
+
+.main-info__position {}
+
+.main-info__description {
+    text-align: center;
+    @media screen and(min-width: 767px) {
+        text-align: left;
+    }
+}
+
+.main-socials {
+    display: flex;
+    justify-content: center;
+    @media screen and(min-width: 767px) {
+        justify-content: flex-start;
+    }
+}
+
+.main-socials_box {
+    width: 40px;
+    height: 40px;
+    margin: 0 8px;
+}
+
+.main-socials_box img {
+    max-width: 100%;
+}
+
+
+/* */
+
+.example-card {
+    margin: 5px;
+    width: 400px;
+    max-width: 400px;
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and(min-width: 767px) {
+        width: 150px;
+    }
+}
+
+.example-card img {
+    max-width: 100%;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+.tecnologies {
+    max-width: 960px;
+    margin: 16px;
+    @media screen and(min-width: 767px) {
+        margin: 16px auto;
+    }
+}
+
+.certificados {
+    max-width: 960px;
+    margin: 16px;
+    @media screen and(min-width: 767px) {
+        margin: 16px auto;
+    }
+}
+
+.projects {
+    max-width: 960px;
+    margin: 16px;
+    @media screen and(min-width: 767px) {
+        margin: 16px auto;
+    }
+}
